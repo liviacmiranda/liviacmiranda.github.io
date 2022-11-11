@@ -5,6 +5,7 @@ body
 	background-color : #C7D5ED;
 	font-family: verdana;
 	font-size: 16px;
+	margin: 0px;
 }
 
 #logo
@@ -20,12 +21,17 @@ h1
 	color: #374054;
 }
 
+h2
+{
+	font-size: 1em;
+	text-align: h1;
+}
+
 #flexsection1
 {
 	background-color: #CFC6A5;
 	
 	display: flex;
-	margin-right: 160px;
 	flex-wrap: wrap;
 	flex-direction: row;
 }
@@ -58,6 +64,7 @@ h1
 	background-color:#8CAFCE;
 	flex-shrink: 0;
 	flex-grow: 0;
+	margin-left:auto;
 	order:1;
 }
 #article2
@@ -84,7 +91,17 @@ h1
 
 .imgflex
 {
-	float: right;
-
+	position: absolute;
+	right: 300;
+	
 }
 
+#articleheader
+{
+	font-weight: bold;
+}
+
+ul
+{
+	list-style: none;
+}
