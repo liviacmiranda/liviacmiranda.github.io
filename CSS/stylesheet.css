@@ -35,7 +35,7 @@ h1
 	flex-basis: 70%;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 10px;
+	
 }
 
 #article1
@@ -50,16 +50,15 @@ h1
 	flex-grow: 1;
 	background-color: #C18CCE;
 	
+	
 }
 
 #asideflex
 {
 	background-color:#8CAFCE;
-	flex-basis: 30%;
 	flex-shrink: 0;
 	flex-grow: 0;
-	margin-right: 160px;
-	
+	order:1;
 }
 #article2
 {
@@ -77,24 +76,15 @@ h1
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 1em;
-	flex-basis: 90%;
+	flex-basis: 60%;
 	flex-shrink: 0;
 	flex-grow: 1;
 	background-color: #CE8CB7;
 }
 
-
-
 .imgflex
 {
 	float: right;
-	position: align;
 
 }
-#imgflexcaption
-{
-	height: 30px;
-	width: 100px;
-	
-	text-align: right-side;
-}
+
