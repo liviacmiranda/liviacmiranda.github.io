@@ -1,0 +1,100 @@
+/* pc version index.html*/
+body
+{
+	
+	background-color : #C7D5ED;
+	font-family: verdana;
+	font-size: 16px;
+}
+
+#logo
+{
+	position: relative;
+	width: 40px;
+	height: auto;
+	
+}
+
+h1
+{
+	color: #374054;
+}
+
+#flexsection1
+{
+	background-color: #CFC6A5;
+	
+	display: flex;
+	margin-right: 160px;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.flexarticle
+{
+	background-color:#CFC6A5;
+	flex-basis: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+#article1
+{
+	
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1em;
+	line-height: 1;
+	flex-basis: 70%;
+	flex-shrink: 0;
+	flex-grow: 1;
+	background-color: #C18CCE;
+	
+}
+
+#asideflex
+{
+	background-color:#8CAFCE;
+	flex-basis: 30%;
+	flex-shrink: 0;
+	flex-grow: 0;
+	margin-right: 160px;
+	
+}
+#article2
+{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1em;
+	flex-basis: 60%;
+	flex-shrink: 0;
+	flex-grow:1;
+	background-color: #CE8C97;
+}
+
+#article3
+{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1em;
+	flex-basis: 90%;
+	flex-shrink: 0;
+	flex-grow: 1;
+	background-color: #CE8CB7;
+}
+
+
+
+.imgflex
+{
+	float: right;
+	position: align;
+
+}
+#imgflexcaption
+{
+	height: 30px;
+	width: 100px;
+	
+	text-align: right-side;
+}
